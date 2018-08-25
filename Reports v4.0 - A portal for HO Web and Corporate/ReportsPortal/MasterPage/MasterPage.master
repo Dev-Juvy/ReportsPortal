@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Mlhuillier</title>
+   <link rel="shortcut icon" href="../Images/application.ico" />
+    <link href="../css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache" />
+    <META HTTP-EQUIV="Expires" CONTENT="-1" />
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+               
+            </div>
+            <div class="loginDisplay">
+            <div class="loginDisplay2" >
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Login.aspx?RptType=1" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                     [ <a href="~/Login.aspx?RptType=1" ID="HeadLoginStatus" runat="server" >Log In</a> ]
+                       <%-- Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]--%>
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                </div> 
+            </div>
+            <div class="clear hideSkiplink">
+                
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            
+        </div>
+        <div class="clear">
+    <div class="footer">
+       
+		    <div id="labelFooter" >
+			    <div id="leftLabel">
+				    M.Lhuillier Philippines Inc. 			    </div>
+			    <div id="rightLabel">
+				    All Rights Reserved.
+			    </div>
+		    </div>
+		    </div> 
+	    
+        </div>
+    </div>
+     
+    </form>
+</body>
+</html>
+

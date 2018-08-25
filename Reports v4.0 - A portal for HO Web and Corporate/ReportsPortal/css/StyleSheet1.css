@@ -1,0 +1,154 @@
+﻿/* no one likes Times New Roman */
+body {
+  font-family: Trebuchet MS, Serif;
+}
+
+#EntryForm 
+{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding-top: 50px;
+}
+
+#EntryForm1 
+{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding-top:70px;
+}
+
+#EntryForm2 
+{
+  border: 1px solid #999;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding-top:70px;
+}
+
+
+  #EntryForm label {
+    clear: both;
+    float: left;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    text-align: right;
+    width: 75px;
+  }
+  
+  #EntryForm input[type=text] {
+    float: left;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+
+div.blockMsg {
+  background-color: #FFF;
+  border: 1px solid #ddd;
+  height: 120px;
+  text-align: center;
+  width: 270px;
+}
+
+.progress {
+  background-image: url(../images/progress-indicator.gif);
+  background-position: center center;
+  background-repeat: no-repeat; 
+}
+
+/* For IE (big surprise): */
+#ConfirmSave { margin-top: 20px; }
+
+#img {
+  background-image: url(../images/MLKP_Logo2.PNG);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.TextIndicator_TextBox1
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+}
+
+.TextIndicator_TextBox3
+{
+     background-color:Blue;
+     color:Yellow;
+     font-size:small;
+     font-variant:small-caps;
+     padding: 2px 3px 2px 3px;
+}
+
+.TextIndicator_TextBox3_Handle
+{
+	width:16px;
+	height:14px;
+	background-image:url(images/Question.png);
+	overflow:hidden;
+	cursor:help;
+}
+
+.TextIndicator_TextBox1_Strength1
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength2
+{
+     background-color:Gray;
+     color:Yellow;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength3
+{
+     background-color:Gray;
+     color: #FFCAAF;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength4
+{
+     background-color:Gray;
+     color:Aqua;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength5
+{
+     background-color:Gray;
+     color: #93FF9E;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+
